@@ -1,0 +1,42 @@
+{
+  "name": "icaspar/ic-light-slider",
+  "description": "Light Slider Plugin",
+  "type": "project",
+  "keywords": [
+    "wordpress",
+    "wp",
+    "plugin",
+    "slider"
+  ],
+  "homepage": "https://caspar.green",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Caspar Green",
+      "email": "cg@caspar.green"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {"ICaspar\\LightSlider\\": "src/"},
+    "files": [
+    ]
+  },
+  "autoload-dev": {
+    "files": [
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,22 @@
+*.log
+
+# PhpStorm #
+############
+/.idea/
+
+# Gulp/Grunt and Node #
+#################
+/node_modules/
+.sass-cache
+
+# Composer Packages #
+#####################
+/vendor/
+
+# Binaries #
+#########
+/bin/
+
+# Compiled Assets #
+###################
+assets/dist/
