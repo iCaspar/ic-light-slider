@@ -11,7 +11,7 @@
  * Plugin Name:     IC Light Slider
  * Plugin URI:      https://www.digitalcanvasllc.com/
  * Description:     A light-weight slider.
- * Version:         1.0.0
+ * Version:         1.0.1
  * Author:          Caspar Green
  * Author URI:      https://caspar.green/
  * Text Domain:     ic-light-slider
@@ -41,7 +41,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Oops! Something went wrong.' );
 }
 
-if ( version_compare( $GLOBALS['wp_version'], '4.8', '>' ) ) {
+if ( version_compare( $GLOBALS['wp_version'], '4.8', '>=' ) ) {
 	require_once( __DIR__ . '/vendor/autoload.php' );
 	init();
 }
