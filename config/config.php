@@ -6,8 +6,8 @@
 return [
 	'post_type_config' => [
 		'post_type_names' => [
-			'singular' => _x( 'Slide', 'singular post type name', IC_LIGHT_SLIDER_TEXT_DOMAIN ),
-			'plural'   => _x( 'Slides', 'plural post type name', IC_LIGHT_SLIDER_TEXT_DOMAIN ),
+			'singular' => _x( 'Slide', 'singular post type name', 'ic-light-slider' ),
+			'plural'   => _x( 'Slides', 'plural post type name', 'ic-light-slider' ),
 		],
 		'supports'        => [
 			'title',
@@ -17,7 +17,7 @@ return [
 		'slug'            => 'ic-slide',
 		'args'            => [
 			'public'            => true,
-			'description'       => _x( 'Slides', IC_LIGHT_SLIDER_TEXT_DOMAIN ),
+			'description'       => _x( 'Slides', 'ic-light-slider' ),
 			'menu_position'     => 24,
 			'menu_icon'         => 'dashicons-images-alt',
 			'show_in_nav_menus' => false,
@@ -27,8 +27,8 @@ return [
 	],
 	'taxonomy_config'  => [
 		'taxonomy_names' => [
-			'singular' => _x( 'Slider', 'singular taxonomy name', ICASPAR_HUB_TEXT_DOMAIN ),
-			'plural'   => _x( 'Sliders', 'plural taxonomy name', ICASPAR_HUB_TEXT_DOMAIN ),
+			'singular' => _x( 'Slider', 'singular taxonomy name', 'ic-light-slider' ),
+			'plural'   => _x( 'Sliders', 'plural taxonomy name', 'ic-light-slider' ),
 		],
 		'slug'        => 'ic-slide-groups',
 		'args'           => [
@@ -39,7 +39,7 @@ return [
 	],
 	'meta_box_config'  => [
 		'slug'      => 'slide-link',
-		'title'     => __( 'Slide Link URL', IC_LIGHT_SLIDER_TEXT_DOMAIN ),
+		'title'     => __( 'Slide Link URL', 'ic-light-slider' ),
 		'post_type' => 'ic-slide',
 		'location'  => 'normal',
 		'meta_key'  => '_slide-link',
