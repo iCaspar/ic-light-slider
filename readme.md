@@ -1,6 +1,6 @@
 # Light Slider
 
-A dead-simple WordPress slider plug-in.
+A light-weight, dead-simple WordPress slider plug-in.
 
 ## Requirements
 
@@ -56,7 +56,7 @@ Where "slider-name" is replaced by the slug of the slider you want to appear at 
 
 Find where in your template you want the slider to appear and insert:
 
-```<?php ICaspar\LightSlider\Slider::showSlider('sliderName')```
+```<?php ICaspar\LightSlider\Slider::showSlider('sliderName'); ?>```
 
 Where `sliderName` is the slider's slug.
 
@@ -71,5 +71,12 @@ Slides are set to a fade transition and change every 7.5 seconds. The slick java
 pulled in from the jsDelivr CDN. If you are inclined, you can further style things in your theme's CSS.
 
 ## Changelog
+
+### 1.0.1
+
+* Update WP Version compatibility
+* Add OSX hidden files to `.gitignore`
+* Fix loading of asset dependencies
+* Fix warnings thrown by undefined constants in config
 
 ### 1.0.0 - First Release Version
