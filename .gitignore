@@ -1,11 +1,14 @@
+# File System #
+###############
 *.log
+.DS_Store
 
 # PhpStorm #
 ############
 /.idea/
 
 # Gulp/Grunt and Node #
-#################
+#######################
 /node_modules/
 .sass-cache
 
