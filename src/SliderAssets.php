@@ -46,7 +46,7 @@ class SliderAssets {
 		wp_register_script(
 			'slick-slider',
 			'//cdn.jsdelivr.net/npm/slick-carousel@1.7.1/slick/slick.min.js',
-			'jquery',
+			['jquery'],
 			'1.7.1',
 			true
 		);
